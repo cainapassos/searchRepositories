@@ -2,8 +2,6 @@ import api from './api';
 
 class App{
 
-    //https://github.com/cainapassos/searchRepositories.git
-
     constructor(){
         this.repositorios = [];
         this.formulario = document.querySelector('form');
