@@ -23,7 +23,7 @@ class App{
         }
 
         this.apresentarBuscando();
-        //try
+        
         try{
             let response = await api.get(`/repos/${input}`);
 
